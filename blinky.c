@@ -9,7 +9,7 @@ struct datta {
 /* setup system hardware */
 static void prvSetupHardware(void) {
 	SystemCoreClockUpdate();
-	4
+	
 	Board_Init();
 	/* Initial LED0 state is off */
 	Board_LED_Set(0, true);
