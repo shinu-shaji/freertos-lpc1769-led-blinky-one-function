@@ -43,7 +43,7 @@ int main(void) {
 	xTaskCreate(vLEDTask2, (signed char* ) "vTaskLed2",
 			configMINIMAL_STACK_SIZE, &data[1], (tskIDLE_PRIORITY + 1UL),
 			(xTaskHandle *) NULL);
-	5
+	
 	xTaskCreate(vLEDTask2, (signed char* ) "vTaskLed3",
 			configMINIMAL_STACK_SIZE, &data[2], (tskIDLE_PRIORITY + 1UL),
 			(xTaskHandle *) NULL);
